@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "cd public && pnpm exec http-server -a ::",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,5 +13,8 @@
   "dependencies": {
     "prettier": "^2.8.3",
     "wrangler": "^2.8.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
